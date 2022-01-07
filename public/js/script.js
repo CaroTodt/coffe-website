@@ -1,3 +1,8 @@
+$(window).load(function() {
+    $(".loader").fadeOut("slow");
+});
+
+
 let navbar = document.querySelector('.navbar');
 
 document.querySelector('#menu-btn').onclick = () =>{
@@ -32,3 +37,4 @@ function findString(text) {
         console.log(window.find(text));
     }
   }
+
